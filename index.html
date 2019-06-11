@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Custoom CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    
+<!--Start Header-->
+<header>
+  <nav class="navMain">
+    <div class="nav__logo">
+      <a href="#"><img src="images/logo.png" alt=""></a>
+    </div>
+    <a class="toggleIcon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+    <div class="navbar__item">
+      <ul id="toggle" class="navHead">
+        <li class="navHide"><a href="#">HOME</a></li>
+        <li class="navHide"><a href="#">FEATURES</a></li>
+        <li class="navHide"><a href="#">ABOUT US</a></li>
+        <li class="navHide"><a href="#">EVENTS</a></li>
+        <li class="navHide"><a href="#">SERMOS</a></li>
+        <li class="navHide aaa"><a href="#" ><i class="fas fa-ellipsis-v"></i></a></li>
+        <li class="navHide mr-2"><a href="#" >DONATE NOW</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<!--End Header-->
+
+<!--Start Navbar-->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="logoImg">
+    <a class="navbar-brand " href="#"><img src="images/logo.png"></a>
+  </div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          HOME
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Home 1</a>
+          <a class="dropdown-item" href="#">Home 2 (Boxed)</a>
+          <a class="dropdown-item" href="#">Home 3</a>
+          <a class="dropdown-item" href="#">Home 4</a>
+          <a class="dropdown-item" href="#">Home RTL</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          FEATURES
+        </a>
+        <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Typorgaphy</a>
+          <a class="dropdown-item" href="#">Shortcodes</a>
+          <a class="dropdown-item" href="#">Help</a>
+          <a class="dropdown-item" href="#">Gallery</a>
+          <a class="dropdown-item" href="#">Blog</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          ABOUT US
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Typorgaphy</a>
+          <a class="dropdown-item" href="#">Shortcodes</a>
+          <a class="dropdown-item" href="#">Help</a>
+          <a class="dropdown-item" href="#">Gallery</a>
+          <a class="dropdown-item" href="#">Blog</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          EVENTS
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Typorgaphy</a>
+          <a class="dropdown-item" href="#">Shortcodes</a>
+          <a class="dropdown-item" href="#">Help</a>
+          <a class="dropdown-item" href="#">Gallery</a>
+          <a class="dropdown-item" href="#">Blog</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">SERMONS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fas fa-ellipsis-v"></i></a>
+      </li>
+      
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="background: black; color: white;">DONATE NOW</button>
+    </ul>
+  </div>
+</nav>
+<!--End Navbar-->
+
+<!-- Start Slider-->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="images/slides-1.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/slides-2.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/slides-3.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!--End  Slider-->
+
+<!--Start Welcome-->
+<section class="welcom">
+  <div class="container">
+    <h1 class="welcome__heading">Welcome to Alhambra</h1>
+    <p class="welcome__description">Many Skin Colors. One Ummah. No Racism in Islam</p>
+    <div class="row">
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+        <div class="sermons__bg-img">
+          <div class="sermons">
+            <span class="sermons__icon"><i class="fab fa-readme"></i></span>
+            <h1 class="sermons__heading"><a href="#">Sermons</a></h1>
+            <p class="sermons__description">Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit duis volutpat ligula nulla dapibus</p>
+            <span class="sermons__btn-position"><button class="sermons__btn">Learn More</button></span>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+        <div class="mosque__bg-img">
+          <div class="mosque">
+            <span class="mosque__icon"><i class="fab fa-readme"></i></span>
+            <h1 class="mosque__heading"><a href="#">Mosque</a></h1>
+            <p class="mosque__description">Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit duis volutpat ligula nulla dapibus</p>
+            <span class="mosque__btn-position"><button class="sermons__btn">Learn More</button></span>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+        <div class="event__bg-img">
+          <div class="event">
+            <span class="event__icon"><i class="fab fa-readme"></i></span>
+            <h1 class="event__heading"><a href="#">Event</a></h1>
+            <p class="event__description">Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit duis volutpat ligula nulla dapibus</p>
+            <span class="event__btn-position"><button class="sermons__btn">Learn More</button></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--End Welcome-->
+
+<!--Start Event-->
+<section class="container-fluid htp">
+  <div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-12 p-md-0 m-sm-0">
+      <div class="event__upcoming">
+        <h1 class="event__upcoming-heading text-md-center text-sm-center ">Upcoming Event</h1>
+        <p class="event__upcoming-description text-md-center text-sm-center">Grand Islamic Gathering with <br>Chicago Imams</p>
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12 p-md-0 m-sm-0"> 
+      <div class="countdown">
+        <h1 class="ountdown__timer ml-lg-5 ml-sm-5">92d9h29m30s</h1>
+        <form class="countdown__form ml-lg-5 ml-sm-5 " action="">
+          <input class="countdown__form-text" type="text" value="YOUR EMAIL">
+          <input class="countdown__form-submit" type="submit" value="SUBSCRIBE"><br>
+          <input class="countdown__form-checkbox" type="checkbox"> <span class="countdown__form-checkbox">I agree that my submitted data is being collected <br> and stored.</span>
+        </form>  
+      </div>
+    </div>
+  </div>  
+</section>
+<!--End Event-->
+
+<!--Start About-->
+<section class="container aboutPad">
+  <div class="aboutUs">
+    <h1 class="aboutUs__heading">A Few Words About Us</h1>
+    <p class="aboutUs__description">Our Community</p>
+  </div>
+  <div class="row">
+    <div class="col-md-3 col-sm-6">
+      <h1 class="aboutUs__heading-2">16000</h1>
+      <p class="aboutUs__description-2">Community Members</p>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <h1 class="aboutUs__heading-2">517</h1>
+      <p class="aboutUs__description-2">Inspirational Sermons</p>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <h1 class="aboutUs__heading-2">284000</h1>
+      <p class="aboutUs__description-2">Donated</p>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <h1 class="aboutUs__heading-2">16</h1>
+      <p class="aboutUs__description-2">Years Together</p>
+    </div>
+  </div>
+</section>
+<!--End About-->
+
+<!-- Start Community-->
+<section class="container CommunityPad">
+  <div class="row">
+    <div class="col-md-4 col-sm-6">
+      <div class="americanMuslim">
+        <img src="images/post-1.jpg" alt="" style="width: 100%">
+        <div class="americanMuslim__content">
+          <h5><a href="#">Letter to American Muslims</a></h5>
+          <p>JUNE 28, 2017</p>
+          <p>Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolor...
+          </p>
+          <button class="americanMuslim__btn"><a href="#">READ MORE</a></button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="islamicEducation">
+        <img src="images/post-2.jpg" alt="" style="width: 100%">
+        <div class="americanMuslim__content">
+          <h5><a href="#">Access to Islamic Education</a></h5>
+          <p>JUNE 24, 2017</p>
+          <p>Quuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolor...
+          </p>
+          <button class="americanMuslim__btn"><a href="#">READ MORE</a></button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-12 pt-3 pt-md-0">
+      <div class="cmmunityGuide">
+        <div class="cmmunityGuide__image1">
+          <div class="cmmunityGuide__content">
+            <h6><a href="#">COMMUNITY GUIDES</a></h6>
+            <h4><a href="#">Welcome to Islam</a></h4>
+            <span><a href="#">JUNE 8, 2017</a></span>&nbsp;&nbsp;&nbsp;<span><a href="#">2 COMMENTS</a></span>
+          </div>
+        </div>
+        <div class="cmmunityGuide__image2">
+          <div class="cmmunityGuide__content">
+            <h6><a href="#">COMMUNITY GUIDES</a></h6>
+            <h4><a href="#">Welcome to Islam</a></h4>
+            <span><a href="#">JUNE 8, 2017</a></span>&nbsp;&nbsp;&nbsp;<span><a href="#">2 COMMENTS</a></span>
+          </div>
+        </div>
+        <div class="cmmunityGuide__image3">
+          <div class="cmmunityGuide__content">
+            <h6><a href="#">COMMUNITY GUIDES</a></h6>
+            <h4><a href="#">Welcome to Islam</a></h4>
+            <span><a href="#">JUNE 8, 2017</a></span>&nbsp;&nbsp;&nbsp;<span><a href="#">2 COMMENTS</a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Community-->
+
+<!-- Start Donate-->
+<section class="container">
+  <h1 class="donateHeading">Help Others Save Their Lives</h1>
+  <p class="donateDescription">And You’ll Save Yours</p>
+  <div class="donateMedicin">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="images/donate_1.jpg" alt="donate_1" class="donateMedicin__img">
+      </div>
+      <div class="col-md-6">
+        <h3 class="donateMedicin__heading"><a href="#">Donate for Medicines</a></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis volutpat ligula nulla dapibus molestie mi consectetur auctor. Nullam eu augue tincidunt, varius felis et, pulvinar augue, aliquam accumsan fringilla lorem, in ornare mi vestibulum ante.</p>
+        <div class="donateMedicin__pogress">
+          <p class="donateMedicin__price">44450.00 USD</p>
+          <p class="donateMedicin__percent">74.08%</p>
+        </div>
+        <div class="donatBtn-p">
+          <span class="donatBtn"><a href="#">DONATE NOW</a></span>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="donateHousing">
+    <div class="row">
+      <div class="col-md-6">
+        <h3 class="donateHousing__heading"><a href="#">Donate for Housing</a></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis volutpat ligula nulla dapibus molestie mi consectetur auctor. Nullam eu augue tincidunt, varius felis et, pulvinar augue, aliquam accumsan fringilla lorem, in ornare mi vestibulum ante.</p>
+        <div class="donateHousing__pogress">
+          <p class="donateHousing__price">18000.00 USD</p>
+          <p class="donateHousing__percent">36%</p>
+        </div>
+        <div class="donatBtn-p">
+          <span class="donatBtn"><a href="#">DONATE NOW</a></span>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img src="images/donate_3.jpg" alt="donate_3" class="donateHousing__img">
+      </div>
+    </div>
+  </div>
+  <div class="donateEducation">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="images/donate_2.jpg" alt="donate_2" class="donateEducation__img">
+      </div>
+      <div class="col-md-6">
+        <h3 class="donateEducation__heading"><a href="#">Donate for Education
+        </a></h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis volutpat ligula nulla dapibus molestie mi consectetur auctor. Nullam eu augue tincidunt, varius felis et, pulvinar augue, aliquam accumsan fringilla lorem, in ornare mi vestibulum ante.</p>
+        <div class="donateEducation__pogress">
+          <p class="donateEducation__price">17850.00 USD</p>
+          <p class="donateEducation__percent">51%</p>
+        </div>
+        <div class="donatBtn-p">
+          <span class="donatBtn"><a href="#">DONATE NOW</a></span>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- End Donate-->
+
+<!-- Start Banner-->
+
+<div class="bannerImg">
+  
+</div>
+<!-- End Banner-->
+
+<!-- Start Contact-->
+<section class="container contactPad">
+  <div class="contactUs">
+    <h1 class="contactUs__heading">Stay in Touch</h1>
+    <p class="contactUs__description">Our Contacts</p>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <p class="contactUs__icon"><i class="fas fa-mobile-alt"></i></p>
+      <h6 class="contactUs__heading-css"><a href="#">0 (800) 420-78-78</a></h6>
+      <p class="contactUs__description-css">9.00 am – 6.00 pm</p>
+    </div>
+    <div class="col-md-4">
+      <p class="contactUs__icon"><i class="far fa-map"></i></p>
+      <h6 class="contactUs__heading-css">8500, Gray Street,</h6>
+      <p class="contactUs__description-css">Chicago, IL, 55030</p>
+    </div>
+    <div class="col-md-4">
+      <p class="contactUs__icon"><i class="far fa-envelope"></i></p>
+      <h6 class="contactUs__heading-css"><a href="#">hello@alhambra.com</a></h6>
+      <p class="contactUs__description-css"><a href="#">Skype: alhambra</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- End Contact-->
+
+<!-- Start Map-->
+<div class="mapImg">
+  <div class="row">
+    <div class="col">
+      <img src="images/map.jpg"  alt="">
+    </div>
+  </div>
+</div>
+<!-- End Map-->
+
+<!-- Start joinUs-->
+<div class="joinUs">
+  <div class="row">
+    <div class="col">
+      <h1 class="joinUs__heading">Inspired? Join Us Right Now!</h1>
+      <p class="joinUs__description">Become a Part of Our Community</p>
+      <p class="joinUs__description-btn"><a href="#">JOIN ALHAMRA</a></p>
+    </div>
+  </div>
+</div>
+
+<!-- End joinUs-->
+
+<!-- Start Footer-->
+<footer class="footer__Bg-color">
+  <section class="container">
+    <div class="row">
+      <div class="col-sm-6 col-md-3">
+        <img src="images/logo.png" class="footer__col1-img">
+        <P class="footer__col1-p">Elit duis volutpat ligula nulla eget dapibus molestie mi consectetur auctor nullam eu augue ac tincidunt, varius felis et, pulvinar augue lorem. Aliquam accumsan fringilla.</P>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <h1 class="footer__col2-heading">Featured Posts</h1>
+        <div class="imgLink1">
+          <div class="footer__col2-img1">
+            <img src="images/post-1.jpg"  style="width: 50px; height: 50px;">
+          </div>
+          <div class="footer__col2-link1">
+            <a href="#">Letter to American <br> Muslim</a>
+          </div>
+        </div>
+        <div class="imgLink2">
+          <div class="footer__col2-img2">
+            <img src="images/post-2.jpg" style="width: 50px; height: 50px;">
+          </div>
+          <div class="footer__col2-link2">
+            <a href="#">Access to Islamic <br>Education</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <h1 class="footer__col3-heading">Useful Links</h1>
+        <li class="footer__list-link">
+          <i class="fas fa-chevron-right pr-2 facColor"></i><a href="#">Events Schedule</a>
+        </li>
+        <li class="footer__list-link">
+          <i class="fas fa-chevron-right pr-2 facColor"></i><a href="#">Donations</a>
+        </li>
+        <li class="footer__list-link">
+          <i class="fas fa-chevron-right pr-2 facColor"></i><a href="#">Community Guides</a>
+        </li>
+        <li class="footer__list-link">
+          <i class="fas fa-chevron-right pr-2 facColor"></i><a href="#">About Our History</a>
+        </li>
+        <li class="footer__list-link">
+          <i class="fas fa-chevron-right pr-2 facColor"></i><a href="#">How to Join Us</a>
+        </li>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <h1 class="footer__col4-heading">Contact US</h1>
+        <div class="footer__col4-contact">
+          <p class="footerCol4Contact__phone">
+            <i class="fas fa-phone mr-2 facColor"></i>
+            <a href="">0(800)420-78-78</a>
+          </p>
+          <p class="footerCol4Contact__time" >9.00am-6.00pm</p>
+          
+          <p class="footerCol4Contact__location">
+            <i class="fas fa-map-marker-alt mr-2 facColor"></i>
+            <span>8500 Gray Street</span>
+          </p>
+          <p class="footerCol4Contact__addres">Chicago, IL, 550303</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</footer>
+<!-- End Footer-->
+
+<!-- Start Footer Head-->
+<div class="footerHead">
+  <p class="footerHead__description">Copyright © 2019 by <a href="#">Axiom.</a> All rights reserved.</p>
+</div>
+<!-- End Footer Head-->
+        
+        <!-- Optional JavaScript -->
+        <script>
+          function myFunction() {
+          document.getElementById('toggle').classList.toggle('menu-on')
+        }
+        </script>
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      </body>
+
+    </html>
